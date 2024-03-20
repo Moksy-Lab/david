@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+.fdb-block {
+    padding: 30px 0;
+}
+
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --primary-Color: #2D0160;
+    --secondary-Color: #FED049;
+    --text-Color: #392C7D;
+    --alert-Color: #0099ff;
+    --success-Color: #E6FFF5;
+    --warning-Color: #EE8800;
+    --error-Color: #F3D7FB;
+    --grey-Color: #6b7385;
+    --black-Color: #101828;
+    --main-Background-Color: #FFFFFF;
+    --secondary-Background-Color: ;
+    --secondary-Font: "Montserrat", sans-serif;
+    --button-padding: 8px 25px;
+    --button-border-radius: 50px;
+    --button-font-weight: 500;
+    --heading: 35px;
+    --heading-two: 25px;
+}
+
+/* headerhdm8ad340b3 */
+.headerhdm8ad340b3{
+    background-color: var(--primary-Color);
+}
+.headerhdm8ad340b3 .bg-white {
+    background-color: var(--primary-Color) !important;
+}
+.headerhdm8ad340b3 .navbar-light .navbar-nav .nav-link {
+    color: var(--success-Color);
+}
+.headerhdm8ad340b3 .navbar-light .navbar-nav .nav-link:hover {
+    color: var(--secondary-Background-Color);
+}
+.headerhdm8ad340b3 .btn-primary,
+.headerhdm8ad340b3 .btn-primary:not(:disabled):not(.disabled):active{
+    font-weight: var(--button-font-weight);
+    background-color: var(--alert-Color);
+    border-radius: var(--button-font-weight);
+    padding: var(--button-padding);
+}
+/* aboutd1e3f52aae36e7047 */
+.aboutd1e3f52aae36e7047{
+    background-color: var(--primary-Color);
+}
+.aboutd1e3f52aae36e7047 .bg-white {
+    background-color: var(--primary-Color) !important;
+}
+.aboutd1e3f52aae36e7047 .DescriptionHeading {
+    font-size: 40px;
+    color: var(--main-Background-Color);
+}
+.aboutd1e3f52aae36e7047 .DescriptionPara{
+    color: var(--grey-Color);
+}
+.aboutd1e3f52aae36e7047 .btn-outline-secondary,
+.aboutd1e3f52aae36e7047 .btn-outline-secondary:hover
+.aboutd1e3f52aae36e7047 .btn-outline-secondary:not(:disabled):not(.disabled):active{
+    font-weight: var(--button-font-weight);
+    border-color: var(--secondary-Color);
+    background-color: var(--secondary-Color);
+    color: var(--black-Color);
+}
+.aboutd1e3f52aae36e7047 .text-secondary{
+    display: none;
+}
+/* clientsc724c807cc8b8e9ab */
+.clientsc724c807cc8b8e9ab h2{
+    font-size: var(--heading);
+}
+
+
+
+
+
+
+
+
+
+
+
+
