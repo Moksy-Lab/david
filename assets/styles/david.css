@@ -78,15 +78,95 @@
 .clientsc724c807cc8b8e9ab h2{
     font-size: var(--heading);
 }
-
-
-
-
-
-
-
-
-
-
-
-
+/* fernandof38911b935c3ef6d9 */
+.fernandof38911b935c3ef6d9 .fdb-block {
+    padding: 3.5rem 0;
+}
+.fernandof38911b935c3ef6d9 h1 {
+    font-size: var(--heading);
+}
+.fernandof38911b935c3ef6d9 .btn-primary,
+.fernandof38911b935c3ef6d9 .btn-primary:hover,
+.fernandof38911b935c3ef6d9 .btn-primary:not(:disabled):not(.disabled):active{
+    font-weight: var(--button-font-weight);
+    background-color: var(--alert-Color);
+    border-radius: var(--button-font-weight);
+    padding: var(--button-padding);
+}
+.fernandof38911b935c3ef6d9 strong {
+    font-weight: 500 !important;
+}
+/* counteraf598102c9dad94e */
+.counteraf598102c9dad94e h2{
+    font-size: var(--heading);
+    color: var(--warning-Color);
+}
+.counteraf598102c9dad94e h4 {
+    font-size: 20px;
+    color: var(--grey-Color);
+}
+/* calltoactioncapzr97jkms */
+.calltoactioncapzr97jkms .fdb-block {
+    padding: 3.5rem 0;
+}
+.calltoactioncapzr97jkms h1{
+    font-size: 35px;
+}
+.calltoactioncapzr97jkms .btn-secondary,
+.calltoactioncapzr97jkms .btn-secondary:hover,
+.calltoactioncapzr97jkms .btn-secondary:not(:disabled):not(.disabled):active
+{
+    font-weight: var(--button-font-weight);
+    background-color: var(--alert-Color);
+    border-radius: var(--button-font-weight);
+    padding: var(--button-padding);
+}
+/* aboutd390a380620aac0e */
+.aboutd390a380620aac0e h2{
+    display: none;
+}
+.aboutd390a380620aac0e .para{
+    font-size: var(--heading-two);
+    color: var(--black-Color) !important;
+}
+.aboutd390a380620aac0e .video_card>.btn{
+    background-color: var(--alert-Color);
+}
+/* aboutbf5e9e9e7ee746db */
+.aboutbf5e9e9e7ee746db .DescriptionHeading{
+font-size: var(--heading-two);
+color: var(--primary-Color);
+}
+.aboutbf5e9e9e7ee746db .searchBtn{
+    font-weight: var(--button-font-weight);
+    background-color: var(--primary-Color);
+    border-radius: var(--button-font-weight);
+    padding: var(--button-padding);
+}
+/* abouteb092de7c8df0610 */
+.abouteb092de7c8df0610 #AbOuTuS{
+    font-weight: var(--button-font-weight);
+}
+.abouteb092de7c8df0610 h2{
+    font-size: var(--heading);
+}
+/* footerb6c9fcc0294384085 */
+.footerb6c9fcc0294384085 footer{
+    background: var(--main-Background-Color);
+}
+.footerb6c9fcc0294384085 .text-white{
+    color: var(--black-Color) !important;
+}
+.footerb6c9fcc0294384085 a,
+.footerb6c9fcc0294384085 a:hover{
+    color: var(--black-Color);
+}
+.footerb6c9fcc0294384085 .form-control:focus{
+    background: var(--main-Background-Color);
+}
+.footerb6c9fcc0294384085 .mini-footer{
+    background: var(--black-Color);
+}
+.footerb6c9fcc0294384085 .mini-footer p a {
+    display: none;
+}
