@@ -1,14 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
-
-.fdb-block {
-    padding: 30px 0;
-}
-
 * {
     font-family: "Poppins", sans-serif;
 }
-
 :root {
     --primary-Color: #2D0160;
     --secondary-Color: #FED049;
@@ -25,10 +19,18 @@
     --button-padding: 8px 25px;
     --button-border-radius: 50px;
     --button-font-weight: 500;
-    --heading: 35px;
-    --heading-two: 25px;
-}
+    --heading:50px;
+	--heading-large: 35px;
+    --heading-medium: 25px;
+    --paragraph: 18px;
+    --logo-border-radius: 15px;
+    --jumbotron-padding: 50px 6px;
+    --section-padding:30px 0px;
 
+}
+.fdb-block {
+    padding: 0rem 0;
+}
 /* headerhdm8ad340b3 */
 .headerhdm8ad340b3{
     background-color: var(--primary-Color);
@@ -49,6 +51,10 @@
     border-radius: var(--button-font-weight);
     padding: var(--button-padding);
 }
+.headerhdm8ad340b3 .logo{
+    max-height: 60px;
+    border-radius: var(--logo-border-radius);
+}
 /* aboutd1e3f52aae36e7047 */
 .aboutd1e3f52aae36e7047{
     background-color: var(--primary-Color);
@@ -57,11 +63,12 @@
     background-color: var(--primary-Color) !important;
 }
 .aboutd1e3f52aae36e7047 .DescriptionHeading {
-    font-size: 40px;
+    font-size: var(--heading);
     color: var(--main-Background-Color);
 }
 .aboutd1e3f52aae36e7047 .DescriptionPara{
-    color: var(--grey-Color);
+    color: var(--error-Color);
+    font-size: var(--paragraph);
 }
 .aboutd1e3f52aae36e7047 .btn-outline-secondary,
 .aboutd1e3f52aae36e7047 .btn-outline-secondary:hover,
@@ -76,14 +83,17 @@
 }
 /* clientsc724c807cc8b8e9ab */
 .clientsc724c807cc8b8e9ab h2{
-    font-size: var(--heading);
+    font-size: var(--heading-large);
+}
+.clientsc724c807cc8b8e9ab span{
+    font-size: var(--paragraph);
 }
 /* fernandof38911b935c3ef6d9 */
 .fernandof38911b935c3ef6d9 .fdb-block {
     padding: 3.5rem 0;
 }
 .fernandof38911b935c3ef6d9 h1 {
-    font-size: var(--heading);
+    font-size: var(--heading-large);
 }
 .fernandof38911b935c3ef6d9 .btn-primary,
 .fernandof38911b935c3ef6d9 .btn-primary:hover,
@@ -97,13 +107,16 @@
 .fernandof38911b935c3ef6d9 strong {
     font-weight: 500 !important;
 }
+.fernandof38911b935c3ef6d9 .lead{
+    font-size: var(--paragraph);
+}
 /* counteraf598102c9dad94e */
 .counteraf598102c9dad94e h2{
-    font-size: var(--heading);
+    font-size: var(--heading-large);
     color: var(--warning-Color);
 }
 .counteraf598102c9dad94e h4 {
-    font-size: 20px;
+    font-size: var(--paragraph);
     color: var(--grey-Color);
 }
 /* calltoactioncapzr97jkms */
@@ -111,7 +124,10 @@
     padding: 3.5rem 0;
 }
 .calltoactioncapzr97jkms h1{
-    font-size: 35px;
+    font-size: var(--heading-large);
+}
+.calltoactioncapzr97jkms .lead{
+    font-size: var(--paragraph);
 }
 .calltoactioncapzr97jkms .btn-secondary,
 .calltoactioncapzr97jkms .btn-secondary:hover,
@@ -127,7 +143,7 @@
     display: none;
 }
 .aboutd390a380620aac0e .para{
-    font-size: var(--heading-two);
+    font-size: var(--heading-medium);
     color: var(--black-Color) !important;
 }
 .aboutd390a380620aac0e .video_card>.btn{
@@ -135,7 +151,7 @@
 }
 /* aboutbf5e9e9e7ee746db */
 .aboutbf5e9e9e7ee746db .DescriptionHeading{
-font-size: var(--heading-two);
+font-size: var(--heading-large);
 color: var(--primary-Color);
 }
 .aboutbf5e9e9e7ee746db .searchBtn{
@@ -149,7 +165,11 @@ color: var(--primary-Color);
     font-weight: var(--button-font-weight);
 }
 .abouteb092de7c8df0610 h2{
-    font-size: var(--heading);
+    font-size: var(--heading-medium);
+}
+/* testimonialtmgmxjq0hb8 */
+.testimonialtmgmxjq0hb8 .lead{
+    font-size: var(--paragraph);
 }
 /* footerb6c9fcc0294384085 */
 .footerb6c9fcc0294384085 footer{
@@ -170,4 +190,13 @@ color: var(--primary-Color);
 }
 .footerb6c9fcc0294384085 .mini-footer p a {
     display: none;
+}
+.footerb6c9fcc0294384085 h5{
+    font-size: var(--paragraph);
+}
+.footerb6c9fcc0294384085 .small{
+    font-size: 16px;
+}
+.footerb6c9fcc0294384085 .mini-footer p{
+    font-size: 16px;
 }
