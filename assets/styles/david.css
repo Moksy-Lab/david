@@ -97,6 +97,14 @@
 .clientsc724c807cc8b8e9ab{
     padding: var(--section-padding);
 }
+.clientsc724c807cc8b8e9ab #clients .client-logo{
+    overflow: visible;
+}
+@media only screen and (min-width: 446px) and (max-width: 487px) {
+    .clientsc724c807cc8b8e9ab h2{
+        text-align: center;
+    }
+  }
 /* fernandof38911b935c3ef6d9 */
 .fernandof38911b935c3ef6d9{
     padding: var(--section-padding);
