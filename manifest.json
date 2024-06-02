@@ -9,19 +9,19 @@
     "orientation": "portrait",
     "icons": [
     {
-    "src": "/assets/images/branding/favicon/apple-icon-36x36.png",
+    "src": "./assets/img/logo.png",
     "sizes": "36x36",
     "type": "image/png",
     "purpose": "any maskable"
     },
     {
-    "src": "/assets/images/branding/favicon/apple-icon-48x48.png",
+    "src": "./assets/img/logo.png",
     "sizes": "48x48",
     "type": "image/png",
     "purpose": "any maskable"
     },
     {
-    "src": "/assets/images/branding/favicon/android-icon-512x512.png",
+    "src": "./assets/img/logo.png",
     "sizes": "512x512",
     "type": "image/png",
     "purpose": "any maskable"
